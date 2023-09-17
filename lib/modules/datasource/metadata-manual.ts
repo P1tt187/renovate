@@ -88,6 +88,7 @@ export const manualSourceUrls: Record<string, Record<string, string>> = {
     'mcr.microsoft.com/dotnet/runtime-deps':
       'https://github.com/dotnet/runtime',
     'mcr.microsoft.com/dotnet/sdk': 'https://github.com/dotnet/sdk',
+    'semaphoreui/semaphore': 'https://github.com/ansible-semaphore/semaphore',
     node: 'https://github.com/nodejs/node',
     registry: 'https://github.com/distribution/distribution',
   },
@@ -97,6 +98,8 @@ export const manualSourceUrls: Record<string, Record<string, string>> = {
   maven: {
     'com.figure.gradle.semver-plugin:com.figure.gradle.semver-plugin.gradle.plugin':
       'https://github.com/FigureTechnologies/gradle-semver-plugin',
+    'com.github.ben-manes.versions:com.github.ben-manes.versions.gradle.plugin':
+      'https://github.com/ben-manes/gradle-versions-plugin',
   },
   npm: {
     node: 'https://github.com/nodejs/node',
